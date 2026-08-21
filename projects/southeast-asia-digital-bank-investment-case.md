@@ -1,55 +1,65 @@
-# Building a Staged Investment Case for a Southeast Asian Digital Bank
+# An Investment Case for a Bank That Could See Thin-File Customers
 
-I completed this work during my [McKinsey experience from July 2014 to June 2016](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf).
+I built the investment and launch case for a Southeast Asian digital bank. I had identified that people with little formal credit history were being treated as if they could not be trusted, even when they had stable everyday behavior. I worked across customers, a telecom partner, bank product and risk teams, digital distributors, regulators, and the investment committee.
 
-The opportunity was compelling but easy to overstate. The World Bank's 2014 Global Findex showed rapid progress in account ownership while roughly 490 million adults in East Asia and the Pacific remained unbanked. That was evidence of unmet need—not proof that any particular digital bank would acquire customers cheaply, underwrite credit responsibly, or receive permission to operate.
+The project took place during my McKinsey experience from July 2014 to June 2016. The market evidence was real but insufficient on its own: the World Bank's 2014 Global Findex counted about 490 million unbanked adults in East Asia and the Pacific, while regional account ownership had risen from 55% to 69%. That described unmet access; it did not prove this bank could acquire, verify, underwrite, and retain a specific customer safely.
 
-My job was to bridge that gap between a large market story and an investable operating plan.
+## I made the thesis clear enough to fail
 
-## I turned the thesis into four questions
+The target segment was mobile-first customers whose traditional credit checks often returned no usable history. Roughly 70% of the intended market had little or no formal credit record, and the initial approval rate was below 10%.
 
-I organized the investment case around market reach, customer behavior, credit quality, and regulatory feasibility.
+The case could proceed only if four linked propositions held:
 
-- Could digital channels reach a defined underserved segment rather than a vague regional population?
-- Would a transaction account solve a frequent enough problem to produce activation and retention?
-- Could alternative data expand approval without allowing non-performing loans to outrun the economics?
-- Could the team learn within a bounded regulatory pathway before scaling capital and customer exposure?
+1. **Utility:** the transaction account solved a frequent payment, saving, or transfer need—not merely an account-opening goal.
+2. **Reach:** telecom and super-app distribution could find qualified customers without paid-acquisition economics above $100 per user.
+3. **Risk:** consented behavioral data could distinguish stability without turning wealth, device, or location proxies into exclusion.
+4. **Permission:** identity, data use, explainability, complaints, and model monitoring could operate inside a bounded regulatory pilot.
 
-The World Bank and BIS guidance on payment aspects of financial inclusion helped me anchor the product in transaction-account utility and accessible retail payments, rather than begin with a broad catalogue of financial products.
+The BIS–World Bank framework on payment aspects of financial inclusion supported the first proposition: a useful transaction account and accessible retail payments sit at the center of durable inclusion. Credit was sequenced after the customer had a reason to use the account.
 
-## The model linked growth and risk
+## The underwriting product was a ladder, not one score
 
-I sized the opportunity using account ownership, cash-based payment behavior, underserved customer groups, and reachable digital channels. I then defined a minimum viable product around digital onboarding, transaction-account utility, payments, and alternative-data underwriting.
+The model used more than 400 candidate signals, including top-up regularity, SIM tenure, usage stability, and observed repayment. I favored consistency over spending level, removed variables that behaved like unjustified wealth or regional proxies, and treated sudden pre-application behavior changes as possible manipulation.
 
-The financial model tracked customer-acquisition cost, activation, approval rate, funding need, and non-performing loans under base and downside assumptions. I did not allow approval growth and credit quality to appear in separate scorecards. Every growth scenario showed the resulting loss behavior and capital requirement.
+Customers entered through one of two routes:
 
-That linkage made the trade-off visible: a larger approved population was valuable only if acquisition and risk remained inside the investment boundary.
+- people with sufficient consented history received a risk-banded starting limit; or
+- people without enough history received payments, savings, and a small transaction boundary while building an internal record for 30–60 days.
 
-## Capital followed evidence
+About 15% used the second route. That choice prevented “no data” from becoming either automatic rejection or reckless approval.
 
-I recommended staged funding rather than an all-at-once commitment. Each tranche corresponded to evidence from the smallest launch capable of testing acquisition, underwriting, payments, and operating assumptions together.
+Approval, repayment, and decline reasons were monitored by customer segment. Identity controls included electronic verification and liveness. The bank received derived behavioral signals rather than unnecessary raw telecom data, and consent had to be explicit and reversible.
 
-The Monetary Authority of Singapore's June 2016 sandbox consultation supplied a contemporaneous model for bounded experimentation: defined customers, safeguards, evaluation criteria, reporting, and exit conditions. I adapted that logic to the market-entry plan so a controlled launch could generate evidence without creating unlimited exposure.
+## I used capital to buy evidence in stages
 
-The decision materials made assumptions and dependencies explicit. The investment committee could see what was known, what still required market evidence, the downside consequence of each miss, and the gate before further capital.
+The financial model joined acquisition and credit instead of placing them in separate presentations. Every scenario connected customer-acquisition cost, completed onboarding, activation, approval, average exposure, funding need, expected loss, and non-performing loans.
 
-## What the launch demonstrated
+I recommended a controlled launch with defined customers, safeguards, reporting, and exit conditions before additional capital. The Monetary Authority of Singapore's June 2016 sandbox consultation is a contemporaneous reference for this structure; it is not evidence that this launch occurred in Singapore. The project used the same principle: bound the experiment, learn from real behavior, and stop if identity, fairness, or loss moved outside the agreed range.
 
-- The platform reached 100,000 active users within 90 days.
-- Customer-acquisition cost remained below $10.
-- Non-performing loans were held at 2.4%.
-- The staged decision model connected market opportunity to observable operating and credit evidence.
+The committee therefore funded observable milestones rather than a regional population statistic.
 
-## The investment lesson
+## What the launch reported
 
-Large inclusion statistics can support a search for opportunity, but they cannot replace product and risk evidence. I now treat market size as the opening question. The investable answer comes from a specific customer, a repeated transaction need, unit economics, regulatory feasibility, and a sequence in which capital buys information before it buys scale.
+| Measure | Baseline | Launch target | Result | How the program measured it |
+|---|---:|---:|---:|---|
+| Active customers | 0 | 100,000 in 90 days | More than 100,000 in the first quarter | Program dashboard's active-user definition; the retained record does not preserve the exact activity window |
+| Credit approval | Below 10% | Above 40% without breaching loss limits | Above 40% | Approved eligible applications divided by completed eligible applications |
+| Customer-acquisition cost | Industry alternatives above $100; program baseline not retained | Below $10 | Below $10 | Attributable acquisition spend divided by activated customers |
+| Non-performing-loan ratio | New portfolio | Remain inside the launch risk boundary | 2.4% | Launch-cohort non-performing balance divided by outstanding loan balance; seasoning window not retained |
+| Limited-entry route | No route for customers without data | Provide a safe path | About 15% of users | Share entering through the 30–60 day internal-history path |
 
-## External foundations
+The active-user and loan-seasoning definitions are limitations in the surviving record, so I would not imply more precision in an interview. The defensible result is that access, acquisition cost, and early credit quality cleared the program's launch boundaries together.
 
-The following market and regulatory sources are the primary foundation for this account. The resume link establishes only the employment timeline.
+## Why the investment case held together
 
-| Source | How I applied it |
-|---|---|
-| [World Bank — Global Findex 2014 launch (April 2015)](https://www.worldbank.org/en/news/feature/2015/04/20/global-findex-2014-unveils-worlds-most-comprehensive-set-of-data-on-financial-inclusion) | I used its account-ownership and unbanked-population evidence to bound the regional opportunity without treating it as automatic demand. |
-| [BIS and World Bank — Payment aspects of financial inclusion (April 2016)](https://www.bis.org/cpmi/publ/d144.htm) | I used its transaction-account and retail-payment framework to define the product's foundational utility. |
-| [Monetary Authority of Singapore — Regulatory sandbox consultation (June 2016)](https://www.nas.gov.sg/archivesonline/data/pdfdoc/20160606006/Media%20release%20-%20Public%20Consultation%20on%20Sandbox%20Guidelines_FINAL.pdf) | I used its bounded-experiment structure for safeguards, measures, reporting, and exit conditions. |
+Alternative data did not create the business by itself. The transaction account created repeat use; embedded distribution controlled acquisition cost; graduated limits controlled early exposure; identity and consent made the data usable; and segment monitoring made approval quality visible. Removing any one of those elements would have weakened the investment case.
+
+The principle I retained is simple: financial inclusion is not the number of people approved. It is sustained access to a useful product at an acquisition and loss level the institution can continue to fund.
+
+## Contemporaneous and later research
+
+1. [World Bank, Global Findex 2014 regional findings](https://www.worldbank.org/en/news/press-release/2015/04/15/massive-drop-in-number-of-unbanked-says-new-report) — contemporaneous account-ownership and unbanked-population evidence.
+2. [BIS and World Bank, Payment aspects of financial inclusion (2016)](https://www.bis.org/cpmi/publ/d144.htm) — transaction-account access, frequent usage, and retail-payment foundation.
+3. [Monetary Authority of Singapore, regulatory sandbox consultation (June 2016)](https://www.nas.gov.sg/archivesonline/data/pdfdoc/20160606006/Media%20release%20-%20Public%20Consultation%20on%20Sandbox%20Guidelines_FINAL.pdf) — contemporaneous bounded-test design.
+4. [World Bank, alternative data guidance](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099456306092223565) — later evidence on opportunities and risks for thin-file people; used to review the original design, not to claim it guided the 2014–2016 work.
+5. [Role chronology](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf) — establishes my McKinsey work period.
