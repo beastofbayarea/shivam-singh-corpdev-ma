@@ -1,56 +1,28 @@
 # Sovereign Mandate - Technical Diligence and Performance Economics
 
-> **Portfolio lens:** Strategic investment diligence, technical underwriting, downside alignment, performance-linked economics, investment-committee evidence, and mandate negotiation.
+> **Document type:** Externally grounded interview case reconstruction, not a claim of an independently verified completed engagement.
+>
+> **Timeline alignment:** The [public Corporate Development resume](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf) is used only to place this case within the D. E. Shaw role dated July 2016-December 2019.
 
-## Executive snapshot
+## Evidence-grounded premise
 
-Connected technical diligence on a deterministic low-latency trading platform to a sovereign investor's mandate economics. Stress replay, shadow mode, firm-capital proof, hardware risk gates, and hurdle-based pricing converted a technical moat into an underwritten, governable, and commercially aligned $500M decision.
+The OECD's 2017 institutional-investor guidance frames due diligence as an ongoing process for identifying and addressing portfolio impacts. IFRS 13 requires valuation techniques appropriate to available data and prioritizes observable inputs. Those sources support technical diligence that connects architecture, operations, governance, and cost assumptions to transparent valuation ranges.
 
-## Resume-ready impact
+## Case approach
 
-- Sponsored technical diligence on a GPU/RDMA execution redesign that held 35 microsecond median and 40 microsecond p99 latency under a severe market shock.
-- Validated the platform through historical replay, six-week shadow mode, and $50M of firm capital before exposing client assets.
-- Helped secure a $500M mandate with 1-and-30 pricing above a hard hurdle; the strategy produced an 18% net first-year return and $25M in performance fees.
+- Trace investment-critical capabilities to systems, data, people, controls, and third parties.
+- Validate performance and cost assumptions with reproducible evidence and observed inputs where available.
+- Separate remediation commitments from demonstrated capability and price unresolved risk explicitly.
+- Define post-transaction governance, reporting, and review rights before commitment.
 
-## Interview story
+## Evidence-based success measures
 
-### Situation
+Use verified assumptions, observable-input coverage, control findings, remediation cost, operational concentration, valuation sensitivity, and post-close action closure. These are proposed measures, not historical results.
 
-A sovereign investor needed protection against concentrated macro risk but distrusted fixed fees and opaque managers. The existing CPU architecture showed eight-millisecond tail spikes precisely when liquidity deteriorated.
+## External source map
 
-### Task
-
-Underwrite the platform, downside controls, implementation risk, and commercial terms well enough to support an investment-committee decision and aligned mandate structure.
-
-### Actions
-
-- Selected a deterministic GPU design based on stressed tail latency rather than average benchmark speed.
-- Assessed GPUDirect RDMA, persistent kernels, an independent FPGA risk gate, heartbeat controls, and CPU fallback as diligence requirements.
-- Staged proof through crash replay, shadow comparison, $50M of firm capital, and live-event evidence before client deployment.
-- Structured a 1% base fee and 30% incentive fee only above the risk-free rate plus a 4% hurdle.
-- Translated technical evidence, residual risks, and economic protections into investment-committee decision materials.
-
-### Results
-
-- The engine completed 94% of intended hedges with less than 0.5 basis points of slippage during the cited event.
-- The portfolio experienced no drawdown during the event.
-- The investor approved a $500M allocation.
-- First-year net return reached 18%, generating $25M in performance fees.
-
-## Decisions and trade-offs
-
-- Underwrite tail-latency determinism rather than rely on average-speed benchmarks.
-- Risk firm capital before asking the investor to trust the new platform.
-- Make the fee contract part of the downside-alignment and investment thesis.
-
-## Leadership signal
-
-Translated engineering evidence for investment committees, quants, infrastructure leaders, boards, and sovereign allocators, connecting technical diligence directly to risk protections, valuation of the moat, and commercial terms.
-
-## Skills and keywords
-
-corporate development - strategic investment diligence - technical underwriting - investment economics - downside protection - performance-linked terms - investment committee - risk reversal - mandate negotiation - value creation
-
-## Source
-
-[Original Notion project page](https://app.notion.com/p/2f6f9e255f2180cfb46fcc435e8a0573)
+| Source | Contribution |
+|---|---|
+| [OECD - Responsible business conduct for institutional investors (2017)](https://doi.org/10.1787/8b9e240a-en) | Primary institutional-investor due-diligence framework. |
+| [IFRS Foundation - IFRS 13 Fair Value Measurement](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-13-fair-value-measurement/) | Primary valuation framework for market-participant assumptions and observable inputs. |
+| [Public resume](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf) | Work dates only. |
