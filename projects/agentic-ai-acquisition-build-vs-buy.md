@@ -6,7 +6,7 @@
 **Alternative:** build internally over an estimated 18 months  
 **Recommendation:** acquire only if independent model diligence, an executable 26-point gross-margin bridge, and a funded four-month integration plan all cleared before commitment.
 
-During my AWS experience beginning in July 2024, I led the build-versus-buy analysis and integration underwriting across finance, AI engineering, infrastructure/hardware, product, independent evaluators, and the deal committee.
+Beginning in my July 2024 AWS experience, the build-versus-buy analysis and integration underwriting fell to me across Finance, AI Engineering, Infrastructure/Hardware, Product, independent evaluators, and the deal committee.
 
 The target was growing roughly 60% year over year, but heavy users were economically unattractive. The committee initially saw either a promising AI company or a 55%-margin asset to reject. I reframed the question: **was the target structurally broken, or did it own a scarce learning system trapped inside fixable compute and pricing choices?**
 
@@ -72,6 +72,6 @@ Current technology-M&A research similarly argues that product and IT value creat
 
 The 81% margin and 158% NDR cannot be attributed to one lever. Acquired workflow/data created the starting advantage; compute, pricing, controls, integration, and customer execution determined realization.
 
-I owned the investment thesis, scarce-asset definition, build counterfactual, prewritten walk-away gates, technical/economic diligence synthesis, conditional recommendation, integration value plan, and committee decision record.
+The investment thesis, definition of the scarce asset, build counterfactual, prewritten walk-away gates, technical/economic diligence synthesis, conditional recommendation, integration value plan, and committee record were my transaction work product.
 
 My deal rule is simple: price the asset as it operates today; underwrite improvements separately. A technology acquisition deserves capital only when the scarce asset is identifiable, failure conditions precede the test, and every synergy has an owner, cost, date, and measurable path through integration.

@@ -6,7 +6,7 @@ This decision connected three scales that are rarely underwritten together:
 - $50 million of the firm’s proof capital; and
 - a potential $500 million sovereign-capital allocation.
 
-During my July 2016–December 2019 D. E. Shaw experience, I led the technical and commercial diligence bridge across the investor, quants, traders, hardware/infrastructure, risk, compliance, finance, and the deal committee. A benchmark could not win the mandate if it ignored live fills; a backtest could not win if it ignored controls; and a fee promise could not survive unless investment and engineering teams accepted the same evidence.
+During my July 2016–December 2019 D. E. Shaw experience, I built the technical-to-commercial diligence bridge across the investor, quants, traders, hardware/infrastructure, Risk, Compliance, Finance, and the deal committee. Benchmarks had to survive live fills, backtests had to survive controls, and fee promises had to be accepted by both investment and engineering teams.
 
 ## The asset was predictable tail behavior
 
@@ -72,6 +72,6 @@ A surviving “$25 million first-year performance fees” statement cannot be re
 | Did evidence earn the mandate? | $0 → staged approval → $500M | Signed and funded allocation |
 | Did returns clear the economics? | new mandate → hurdle + fees → 18% net reported first year | Client statement after fees |
 
-I owned the technical/commercial thesis, proof ladder, objection synthesis, economics, committee narrative, and capital-release conditions. Quants and engineers owned models and implementation; risk/compliance owned limits; finance owned fee and cost calculations; the investor owned allocation.
+The technical/commercial thesis, proof ladder, objection synthesis, economics, committee narrative, and capital-release conditions were my diligence accountabilities. Quants/Engineers controlled models and implementation; Risk/Compliance controlled limits; Finance calculated fees/costs; the investor controlled allocation.
 
 The mandate was defensible because every layer exposed its failure mode: tail latency, independent controls, shadow behavior, firm capital, client capital, and fee alignment. Technical advantage became investable only after it survived realistic stress and shared risk.

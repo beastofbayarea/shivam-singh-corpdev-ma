@@ -4,7 +4,7 @@ The original proposal put $50 million behind a visible consumer wallet. I recomm
 
 Customer-acquisition cost had tripled since 2020, retention without subsidy was below 40%, take rate was near 0.5%, and more than 50 regional wallets were competing for the same attention. The scarce asset was not another front end. It was interoperability among wallets, banks, merchant acquirers, and national schemes.
 
-During my Rakuten internship, I led the strategic-investment case across the investment committee, fintech leadership, founders, local regulators and counsel, product/engineering, and Japanese travelers. I redirected the thesis from buying users repeatedly to owning a minority position in the rails that connected them.
+During my Rakuten internship, I brought the strategic-investment case to the committee after working across FinTech leadership, founders, local regulators/counsel, Product/Engineering, and Japanese travelers. The recommendation redirected capital from repeatedly buying users to a minority position in the rails connecting them.
 
 ## The target: a B2B aggregator
 
@@ -63,6 +63,6 @@ A Japanese customer booking regional travel could learn before departure that Ra
 | Company economics | loss-making → breakeven → EBITDA breakeven in 14 months | Management accounts |
 | Investment value | 1.0× entry book value → preserve/grow → ~1.5× | Portfolio valuation, not realized cash return |
 
-I owned the thesis reversal, target/layer choice, minority structure, corridor model, regulatory escalation, integration dependency, distribution logic, valuation monitoring, and committee account.
+The thesis reversal, target-layer choice, minority structure, corridor options, regulatory escalation, integration dependency, travel distribution, valuation monitoring, and committee account defined my deal scope.
 
 The corporate-development lesson was sharper than “infrastructure beats apps.” A regional network, a permitted corridor, a working integration, and defensible minority rights are separate assets. I now price and gate them separately so the visible size of a network cannot hide where strategic value is unable to launch.

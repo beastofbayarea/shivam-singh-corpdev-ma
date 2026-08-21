@@ -61,6 +61,6 @@ The committee funded milestones:
 
 Because the active-user window and loan seasoning are absent, I do not imply more precision than the record supports. The important result was concurrent: access, acquisition cost, and early credit quality all cleared the launch boundaries.
 
-I owned the falsifiable investment thesis, customer-entry architecture, signal principles, integrated acquisition/credit economics, staged capital release, committee gates, and launch measurement. Product teams owned service design; risk teams owned model and portfolio limits; the telecom partner owned source data and distribution; regulators/counsel owned permission.
+My committee responsibility covered the falsifiable thesis, customer-entry architecture, signal principles, joined acquisition/credit economics, staged capital release, gates, and launch measurement. Product designed the service; Risk set model/portfolio limits; the telco supplied data/distribution; regulators and counsel determined permission.
 
 The investment case held because no single “alternative-data model” carried it. A useful transaction account created behavior, embedded distribution controlled CAC, graduated limits constrained exposure, consent made data usable, and segment monitoring preserved decision quality. Inclusion became a fundable operating system, not a headline approval rate.
