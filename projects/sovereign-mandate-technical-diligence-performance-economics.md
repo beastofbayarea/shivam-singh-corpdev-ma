@@ -2,7 +2,7 @@
 
 I led the technical and commercial diligence for a trading mandate from a sovereign-capital investor. I had identified that the investor needed protection during violent markets but did not want to pay fixed fees for an opaque system. I worked with the investor's team, quants, traders, infrastructure and hardware engineers, risk and compliance leaders, finance, and the deal committee.
 
-The decision joined three scales that are usually reviewed separately: microsecond execution, $50 million of firm proof capital, and a potential $500 million client allocation. I owned the evidence bridge across all three, so the mandate could not be won by a benchmark that ignored live fills, a backtest that ignored controls, or a commercial promise that the investment and engineering teams had not accepted.
+The decision joined three scales that are usually reviewed separately: microsecond execution, $50 million of firm proof capital, and a potential $500 million client allocation. I built the evidence bridge across all three, so the mandate could not be won by a benchmark that ignored live fills, a backtest that ignored controls, or a commercial promise that the investment and engineering teams had not accepted.
 
 This work took place during my D. E. Shaw experience from July 2016 to December 2019. My ownership crossed an unusual boundary: determine whether a new execution platform remained predictable under stress, then decide whether that evidence justified client capital and performance-linked pricing.
 

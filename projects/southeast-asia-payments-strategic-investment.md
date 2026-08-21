@@ -6,7 +6,7 @@ I led a strategic-investment case for cross-border payments in Southeast Asia. I
 
 The original $50 million thesis favored a visible consumer wallet. The operating evidence was deteriorating: customer-acquisition cost had tripled since 2020, retention without subsidy was below 40%, and take rates were near 0.5%. The region also contained more than 50 wallets, which made consumer attention abundant to compete for and interoperability scarce to own.
 
-I took ownership of redirecting the capital thesis, not merely comparing targets. That meant asking the committee to abandon the most visible category, move from owning a consumer front end to owning a minority position in payment infrastructure, and accept that licensing, settlement, scheme access, and legacy-core integration—not app downloads—would determine whether the strategy could scale across countries.
+I redirected the capital thesis rather than merely comparing targets. That meant asking the committee to abandon the most visible category, move from owning a consumer front end to owning a minority position in payment infrastructure, and accept that licensing, settlement, scheme access, and legacy-core integration—not app downloads—would determine whether the strategy could scale across countries.
 
 I redirected the case toward a B2B aggregator connecting wallets, banks, merchant acquirers, and national payment schemes. Its cross-border economics supported a reported 1.5%–2.0% take rate, and an integration could add regional utility to customers Rakuten already had rather than buy them again.
 

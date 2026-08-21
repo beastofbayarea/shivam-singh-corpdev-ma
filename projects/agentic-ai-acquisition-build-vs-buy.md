@@ -4,7 +4,7 @@ I led the build-versus-buy and integration case for an AI operations company. I 
 
 The proposed acquisition was $85 million. My work during my AWS experience beginning in July 2024 was to decide whether the target's poor margin revealed a broken asset or a valuable asset trapped inside a fixable architecture and pricing model.
 
-I owned the decision as one integrated underwriting problem: price the scarce data and workflow asset, prove the model under hostile testing, make the 26-point margin expansion executable, and put a four-month integration owner behind every dependency before asking the committee to commit capital. That moved the discussion from “promising AI company” to an $85 million decision with explicit reasons to buy, build, renegotiate, or walk away.
+My recommendation had to solve one integrated underwriting problem: price the scarce data and workflow asset, prove the model under hostile testing, make the 26-point margin expansion executable, and put a four-month integration owner behind every dependency before asking the committee to commit capital. That moved the discussion from “promising AI company” to an $85 million decision with explicit reasons to buy, build, renegotiate, or walk away.
 
 ## What we were actually considering buying
 
