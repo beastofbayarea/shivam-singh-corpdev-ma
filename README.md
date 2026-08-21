@@ -16,6 +16,10 @@ Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly appl
 - Capital allocation and financial modeling
 - Integration planning and value creation
 
+## Selected work sample
+
+- [Agentic AI investment thesis and corporate synergy map](./work-samples/plug-and-play-agentic-ai-investment-thesis-and-corporate-synergy-map-2026.pdf) - venture thesis development, corporate matching, and strategic value creation
+
 ## Profile
 
 [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
