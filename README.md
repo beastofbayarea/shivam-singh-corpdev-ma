@@ -33,6 +33,22 @@ For the sovereign mandate, low average latency was not the moat; predictable tai
 
 The digital-bank case converted an attractive inclusion story into falsifiable economics. Capital followed a customer ladder: onboarding, activation, limited first exposure, observed behavior, controlled limit expansion, and seasoned credit evidence. The launch moved approval from below 10% to above 40%, reached more than 100,000 active users in the first quarter, held CAC below $10 against alternatives above $100, and recorded 2.4% early NPL. The missing seasoning definition remains a constraint, not a footnote to hide.
 
+## Investment-committee answer — evaluating expansion
+
+**Q: How would you evaluate a product or market expansion?**
+
+**A:** I evaluate expansion in three passes: market attractiveness, right to win, and a staged capital decision. The Southeast Asia payments project is a good example because the first proposal looked attractive at the market level but failed at the business-model level.
+
+For the **market**, I sized the actual customer and transaction problem rather than treating regional wallet GMV as the opportunity. Consumer wallets were crowded, CAC had tripled from the 2020 level, retention was below 40%, and take rate was roughly 0.5%. At the same time, cross-border acceptance remained fragmented across wallets, banks, national QR schemes, currencies, authorization messages, reversals, settlement, and reconciliation. Regulation was corridor-specific, so a regional TAM could not be converted directly into a launchable SAM or near-term SOM.
+
+For the **right to win**, I tested capability, differentiation, channel, and economics. A subsidized wallet offered limited defensibility. A B2B payment aggregator owned a scarcer layer: connections across schemes and more than five million reported QR acceptance points, with a 1.5–2.0% take rate. Rakuten could contribute an existing customer moment, payment volume, and integration demand rather than funding stand-alone consumer acquisition. The value came from embedding the rail into useful commerce flows.
+
+For the **decision**, I recommended redirecting the proposed $50 million wallet bet into a 15% strategic position in the infrastructure company. The transaction thesis included the technical integration—not just board rights or future partnership language. Each corridor was underwritten as an option with approval, product, volume, loss, and settlement gates. When Vietnam took twelve months rather than the planned six, that delay was contained as a corridor outcome rather than allowed to invalidate or conceal the regional thesis.
+
+The scale triggers were executable: scheme connectivity, end-to-end authorization and reversal, settlement reconciliation, regulatory approval, merchant acceptance, corridor contribution, and management-account progress toward breakeven. The company reached EBITDA breakeven in fourteen months and the investment was marked at roughly 1.5× entry book value; I describe that as portfolio valuation, not realized cash return.
+
+The adjacent digital-bank project reinforced the same method. Market demand and inclusion were not enough; capital followed active-use, CAC, approval, graduated exposure, and seasoned credit evidence. My expansion rule is therefore: size demand, prove the organization's specific right to win, choose the least irreversible entry path, and release scale only when customer, regulatory, operating, and unit-economic evidence move together.
+
 ## How I create deal ownership
 
 My role extends from thesis and market map through target screening, commercial and technical diligence, valuation, scenario analysis, terms, committee persuasion, and integration/value-creation governance. I make uncertainties visible early, preserve the difference between forecast and realization, and turn downside concerns into gates, protections, or a reason to walk away.
