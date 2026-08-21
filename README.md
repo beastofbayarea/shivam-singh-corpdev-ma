@@ -1,49 +1,40 @@
-# Shivam Singh - Corporate Development and Strategic Investments
+# Shivam Singh — Corporate Development & Strategic Investments
 
-## Profile
+I underwrite transactions by asking what scarce asset the capital actually buys, which failure would destroy the thesis, and what evidence must exist before the next dollar or integration decision is released.
 
-Hi, I’m Shivam. I enjoy transaction questions that cannot be answered by a model alone: Is this capability genuinely strategic? What would we have to believe about the market? Which risks can diligence resolve, which belong in the price or terms, and who will create the value after close?
+This portfolio spans acquisition, minority investment, market entry, and institutional mandate work. The sectors differ; the discipline does not. Strategic logic, technical reality, unit economics, deal structure, and post-close ownership must resolve into one decision.
 
-You can reach me at [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/beastofbayarea).
+[Resume](./shivam-singh-corpdev-ma.pdf) · [LinkedIn](https://www.linkedin.com/in/beastofbayarea) · [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu)
 
-## My investment lens
+## The investment-committee record
 
-I try to keep strategic logic, market evidence, financial returns, technical reality, and integration readiness in the same conversation. When those threads are separated, a deal can look attractive in five different presentations and still fail as one investment.
+| Decision | Scarce asset | Prewritten failure condition | Capital-release evidence |
+|---|---|---|---|
+| [$85M agentic-AI acquisition](./projects/agentic-ai-acquisition-build-vs-buy.md) | Three years of specialist corrections embedded in production supply-chain workflows | Unsupported output above 5%, no executable 26-point margin bridge, or an unfunded integration plan | Independent task evaluation, representative inference economics, named integration owners, and a four-month GA plan |
+| [15% Southeast Asia payments investment](./projects/southeast-asia-payments-strategic-investment.md) | The routing layer connecting wallets, banks, QR schemes, settlement, and reconciliation | Consumer-subsidy economics, corridor assumptions without regulatory gates, or no integration path | 1.5–2.0% B2B take rate, scheme reach, corridor approvals, and management-account progress to breakeven |
+| [$500M sovereign mandate](./projects/sovereign-mandate-technical-diligence-performance-economics.md) | Predictable execution behavior in stressed market tails | Failure under replay, client exposure before firm-capital proof, slippage outside the agreed bound, or misaligned fees | Independent timestamps, shadow comparison, four weeks of $50M firm capital, staged client allocation, and hurdle-linked economics |
+| [Southeast Asia digital-bank case](./projects/southeast-asia-digital-bank-investment-case.md) | A controlled route to thin-file customers through alternative data and embedded distribution | Approval expansion without loss discipline, CAC dependent on subsidy, or capital committed ahead of cohort evidence | Graduated limits, 30–60-day behavioral evidence, regulatory sequencing, active-use and credit-quality cohorts |
 
-My preferred decision is specific: what should we do, why now, what could make us wrong, what conditions should protect us, and how will the new capability create value inside the business?
+## Four decisions, seen from the inside
 
-## Four decisions I work through
+### Acquire the learning system—not the feature
 
-These projects move from the newest experience to the oldest. I write them as decision narratives rather than deal summaries, using independent market and methodology sources as the main evidence base.
+The agentic-AI target was growing about 60% year over year but operated at 55% gross margin. I reframed build versus buy around the asset an internal build could not quickly reproduce: real workflows, difficult documents, specialist corrections, and the feedback loop connecting them. The recommendation was conditional, not celebratory. Diligence recorded 3.2% unsupported output against a sub-5% gate; post-integration it reached 0.8%. Gross margin reached the underwritten 81%, representative inference cost fell 70%, autonomous resolution moved from 14% to 72%, and NDR rose from 125% to 158%. Each result remained tied to the integration system rather than attributed to the purchase price alone.
 
-### Amazon Web Services (AWS)
+### Redirect capital to the layer with structural power
 
-**Director, Corporate Development and Strategic Investments - Generative AI** | July 2024 - Present
+A proposed $50 million consumer-wallet bet carried CAC three times its 2020 level, sub-40% retention, and a roughly 0.5% take rate. I redirected the thesis toward payment infrastructure with 1.5–2.0% B2B take rate and more than five million reported QR acceptance points. A 15% minority position made integration a transaction workstream, not a future partnership hope. When Vietnam approval took twelve months rather than six, the corridor option framework absorbed the delay. The company reached EBITDA breakeven in fourteen months and the position was marked near 1.5× entry book value—not presented as realized cash return.
 
-#### [Agentic AI acquisition: build vs. buy](./projects/agentic-ai-acquisition-build-vs-buy.md)
+### Make technical proof carry commercial weight
 
-I reframed an $85M agentic-AI acquisition from a margin failure into a conditional value-creation thesis. Independent technical diligence, a cost and pricing bridge, explicit walk-away criteria, and a four-month integration plan connected strategic fit to realizable post-close economics.
+For the sovereign mandate, low average latency was not the moat; predictable tail behavior was. Stress evidence recorded 35 microseconds median and 40 microseconds p99 in the cited event, more than 4,500 hedges with 94% intended completion, and less than 0.5 basis points of slippage. The firm risked $50 million for four weeks before client exposure. That escalation—from lab replay to shadow mode to firm capital to client capital—earned a signed and funded $500 million allocation and aligned first-year economics to an 18% net reported return.
 
-### Rakuten Group, Inc.
+### Stage market entry around what the cohort proves
 
-**Corporate Development and Strategic Investments - MBA Intern** | June 2023 - December 2023
+The digital-bank case converted an attractive inclusion story into falsifiable economics. Capital followed a customer ladder: onboarding, activation, limited first exposure, observed behavior, controlled limit expansion, and seasoned credit evidence. The launch moved approval from below 10% to above 40%, reached more than 100,000 active users in the first quarter, held CAC below $10 against alternatives above $100, and recorded 2.4% early NPL. The missing seasoning definition remains a constraint, not a footnote to hide.
 
-#### [Southeast Asia payments: strategic investment](./projects/southeast-asia-payments-strategic-investment.md)
+## How I create deal ownership
 
-I redirected a $50M consumer-wallet thesis toward the scarce infrastructure connecting regional wallets, banks, and QR schemes. A 15% minority investment combined sticky B2B economics with strategic payment integration and a corridor recovery plan after the original regulatory timeline proved too optimistic.
+My role extends from thesis and market map through target screening, commercial and technical diligence, valuation, scenario analysis, terms, committee persuasion, and integration/value-creation governance. I make uncertainties visible early, preserve the difference between forecast and realization, and turn downside concerns into gates, protections, or a reason to walk away.
 
-### The D. E. Shaw Group
-
-**Vice President, Investment Strategy** | July 2016 - December 2019
-
-#### [Sovereign mandate: technical diligence and performance economics](./projects/sovereign-mandate-technical-diligence-performance-economics.md)
-
-I connected technical diligence on a deterministic low-latency trading platform to a sovereign investor's mandate economics. Stress replay, shadow mode, firm-capital proof, hardware risk gates, and hurdle-based pricing converted a technical moat into an underwritten, governable, and commercially aligned $500M decision.
-
-### McKinsey & Company
-
-**Associate, Commercial Due Diligence & FinTech Strategy** | July 2014 - June 2016
-
-#### [Southeast Asia digital bank: investment case and staged market entry](./projects/southeast-asia-digital-bank-investment-case.md)
-
-I built the investment case for a Southeast Asian digital bank by connecting market size, MVP scope, customer-acquisition economics, credit risk, and regulatory sequencing. The platform scaled to 100,000 active users in 90 days while holding CAC below $10 and non-performing loans at 2.4%.
+A transaction earns conviction when the scarce asset is specific, the counterfactual is honest, the fatal risks are written before diligence, and every synergy has an owner, cost, date, and measurable route to value.
