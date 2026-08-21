@@ -1,55 +1,75 @@
-# Underwriting a Low-Latency Platform for a $500 Million Sovereign Mandate
+# Turning Execution Proof into a Sovereign-Capital Mandate
 
-I did this work during my [D. E. Shaw experience from July 2016 to December 2019](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf).
+I led the technical and commercial diligence for a trading mandate from a sovereign-capital investor. I had identified that the investor needed protection during violent markets but did not want to pay fixed fees for an opaque system. I worked with the investor's team, quants, traders, infrastructure and hardware engineers, risk and compliance leaders, finance, and the deal committee.
 
-A sovereign investor wanted protection against concentrated macro risk but was wary of opaque managers and fixed fees. At the same time, the existing CPU-based execution architecture showed tail-latency spikes of eight milliseconds precisely when liquidity deteriorated.
+This work took place during my D. E. Shaw experience from July 2016 to December 2019. My ownership crossed an unusual boundary: determine whether a new execution platform remained predictable under stress, then decide whether that evidence justified client capital and performance-linked pricing.
 
-My task was to connect two forms of diligence that are often discussed separately: whether the proposed GPU/RDMA platform behaved deterministically under stress, and whether that technical advantage justified a $500 million mandate with aligned commercial terms.
+## The real technical asset was the tail
 
-## I defined the moat as stressed behavior
+The CPU path looked acceptable on ordinary averages but reached eight milliseconds during market-data bursts. The system was doing expensive work—network interrupts, operating-system queues, memory copies, and repeated GPU launches—at the moment prices moved fastest.
 
-Average benchmark speed was not a useful decision criterion. A hedging system creates value when markets are difficult, so I underwrote tail latency, completion, slippage, recovery, and fallback during severe conditions.
+The proposed path used ConnectX-4 networking and GPUDirect RDMA to place market data directly into GPU memory, a persistent GPU kernel to avoid repeated launch overhead, and an independent FPGA gate before orders reached the exchange. NVIDIA's documentation supports the core architectural claim: GPUDirect RDMA creates a direct PCIe path between a network device and GPU memory, reducing CPU involvement. It does not, by itself, validate this project's latency numbers.
 
-The architecture used GPUDirect RDMA and persistent kernels to reduce unnecessary movement and scheduling variation. NVIDIA's GPUDirect RDMA documentation provided the primary technical model for direct device-to-device data exchange. I treated the FPGA path as an independent risk gate and required heartbeat controls and a CPU fallback so the performance gain did not become a single point of failure.
+The safety design mattered as much as speed:
 
-The proposed design held 35-microsecond median and 40-microsecond p99 latency under the stress scenario. More important, the narrow difference between the median and tail supported the determinism thesis.
+- a heartbeat updated on every processing loop;
+- a heartbeat stall beyond 20 microseconds or a limit breach cut the exchange connection;
+- the FPGA enforced outbound order limits independently of the model;
+- correlation below 0.6 throttled leverage; and
+- the CPU path remained available as a fallback.
 
-## Proof increased in four deliberate steps
+That made the moat a controlled distribution of outcomes, not a benchmark screenshot.
 
-I sequenced validation so exposure grew only after the previous layer produced acceptable evidence:
+## I increased proof before exposure
 
-1. Historical crash replay tested the platform against known extreme conditions.
-2. Six weeks of shadow operation compared decisions and behavior without controlling client capital.
-3. We put $50 million of firm capital behind the system.
-4. Live-event evidence informed the final client-deployment decision.
+The validation sequence was deliberately asymmetric: the firm accepted risk before asking the client to do so.
 
-Using firm capital was a governance choice as much as a technical test. We accepted the implementation risk before asking the investor to do so.
+1. **Historical stress replay:** the 2015 Swiss-franc shock was replayed at ten times speed. The GPU path stayed near 40 microseconds while the CPU path exceeded 80 milliseconds in the replay.
+2. **Six-week shadow run:** GPU decisions were compared with production behavior without controlling capital. The reported capture rate was 94% versus 67% on the CPU path.
+3. **Firm-capital deployment:** $50 million ran live for four weeks.
+4. **Live volatility:** independent NIC/GPU timestamps, packet wire taps, exchange acknowledgements, and signed logs recorded behavior during the referendum shock.
 
-OECD guidance on responsible business conduct for institutional investors influenced the diligence structure: identify material impacts, investigate them, document mitigation, and maintain oversight rather than outsource judgment to a manager's assertion.
+The Bank of England's contemporaneous record establishes the external stress: between June 23 and July 1, 2016, the sterling exchange-rate index fell 9%, short-term sterling-dollar volatility reached a post-Bretton Woods high, market depth fell, and bid-offer spreads widened. Those facts explain the environment; they do not prove the private platform result.
 
-## I made the fee contract part of the risk design
+## I translated five stakeholder objections into deal conditions
 
-The commercial structure used a 1% base fee and a 30% incentive fee only above the risk-free rate plus a 4% hurdle. That made substantial performance compensation contingent on clearing an explicit return boundary.
+Finance challenged $2 million of specialized hardware. Quants feared CUDA complexity would slow research. Infrastructure worried about power, heat, and a bespoke failure path. Risk and Compliance required deterministic controls. The investor needed understandable evidence without proprietary source code.
 
-I translated the technical evidence into investment-committee language: the source of the advantage, the scenarios in which it could disappear, remaining hardware and operational risks, the proof already completed, the fallback path, and the economics after fees. IFRS 13's market-participant and observable-input principles helped discipline how I described the value of the technical capability without turning engineering promise into unsupported valuation.
+I answered with one decision record: full cost versus recurring slippage, a stable Python/PyTorch research interface, replay and failover evidence, hardware-enforced limits, independent timestamps, and a staged capital plan. No group had to accept another group's assertion.
 
-## What the evidence supported
+## The contract completed the product
 
-- During the cited event, the engine completed 94% of intended hedges with less than 0.5 basis points of slippage.
-- The portfolio experienced no drawdown during that event.
-- The investor approved a $500 million allocation.
-- First-year net return reached 18%, producing $25 million in performance fees.
+The proposed economics were a 1% base fee plus a 30% incentive fee only above the risk-free rate plus a 4% hurdle:
 
-## The principle I use now
+`incentive fee = 30% × max(0, gross eligible profit − hurdle profit)`
 
-A technical moat is not a benchmark result. It is an advantage that survives realistic stress, has controlled failure modes, and changes the investor's economic outcome. I underwrite those elements together, then express the remaining uncertainty in staging, fallback, and commercial terms.
+That structure covered stewardship while making the largest upside conditional on delivered alpha. It also created a clean diligence question: could the execution advantage remain after hardware cost, operating cost, slippage, the hurdle, and the fee?
 
-## External foundations
+The surviving project notes also state “$25 million in first-year performance fees,” but they do not retain gross return, the exact risk-free benchmark, crystallization terms, or whether the figure included the 1% base fee. Because the amount cannot be reconciled from the preserved inputs, I do **not** use it as an interview claim.
 
-The sources below supplied the primary technical, diligence, and valuation frameworks. The resume link establishes employment chronology only.
+## What the retained evidence supports
 
-| Source | How I applied it |
+| Measure | Baseline | Gate | Result | Measurement |
+|---|---:|---:|---:|---|
+| Tail latency | CPU spikes to 8 ms in live bursts | Stable stressed tail before capital | 35 µs median / 40 µs p99 in the cited event | NIC/GPU timestamps and exchange acknowledgements |
+| Firm proof capital | 0 | Firm risks capital before client | $50M | Capital and position ledger |
+| Intended hedge completion | 67% CPU result in shadow comparison | Improve completion without breaking limits | 94%; more than 4,500 hedges in the cited event | Intended-order set matched to acknowledged fills |
+| Execution slippage | Stress baseline not retained | Below 0.5 basis points | Below 0.5 bps | Fill price versus the approved arrival benchmark |
+| Event drawdown | Client sought protection | Avoid loss during the cited shock | 0.0% reported | Portfolio NAV for the event window |
+| Client allocation | 0 | Earn staged approval | $500M | Signed mandate and funded allocation |
+| First-year return | New mandate | Clear the contractual hurdle | 18% net reported | Client performance statement after fees |
+
+## Why the mandate was defensible
+
+The platform did not win because GPUs are faster. It won because the system exposed its tail, failure modes, fallback, capital proof, and fee logic to the same decision process. The technical evidence changed the investor's risk; the contract made the manager share it.
+
+My rule is to underwrite a technical moat where it matters most: realistic stress, independently timestamped behavior, controlled failure, client economics after all costs, and a sequence that can stop before full exposure.
+
+### Sources and claim boundaries
+
+| Source | Use in this reconstruction |
 |---|---|
-| [NVIDIA — GPUDirect RDMA documentation](https://docs.nvidia.com/cuda/gpudirect-rdma/) | I used its direct-memory-access model to frame the platform's technical design and the points requiring validation. |
-| [OECD — Responsible business conduct for institutional investors (2017)](https://doi.org/10.1787/8b9e240a-en) | I used its due-diligence cycle to structure investigation, mitigation, documentation, and continuing oversight. |
-| [IFRS Foundation — IFRS 13 Fair Value Measurement](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-13-fair-value-measurement/) | I used its market-participant and observable-input principles to keep the economic translation disciplined. |
+| [NVIDIA GPUDirect RDMA documentation](https://docs.nvidia.com/cuda/gpudirect-rdma/) | Supports the direct network-device-to-GPU-memory architecture and its platform constraints; not the private performance result. |
+| [Bank of England Financial Stability Report, July 2016](https://www.bankofengland.co.uk/financial-stability-report/2016/july-2016) | Primary contemporaneous evidence for sterling, volatility, depth, and spread conditions around the referendum. |
+| [Bank of England, liquidity determinants in the UK gilt market (2016)](https://www.bankofengland.co.uk/working-paper/2016/liquidity-determinants-in-the-uk-gilt-market) | Contemporaneous evidence that stressed liquidity and dealer conditions can materially increase execution cost. |
+| [Role chronology](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf) | Establishes my D. E. Shaw work period; private mandate results remain attributed to the retained project record. |
