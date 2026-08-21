@@ -22,4 +22,5 @@ Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly appl
 
 ## Profile
 
-[LinkedIn](https://www.linkedin.com/in/beastofbayarea)
+- Email: [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu)
+- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
