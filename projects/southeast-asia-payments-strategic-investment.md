@@ -1,53 +1,74 @@
-# Investing in the Infrastructure Behind Southeast Asian QR Payments
+# Redirecting a Wallet Bet Toward Southeast Asia's Payment Rails
 
-I developed this strategic-investment work during my [Rakuten experience from June to December 2023](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf).
+I led a strategic-investment case for cross-border payments in Southeast Asia. I had identified that another consumer wallet would keep paying to win the same travelers, while banks, wallets, and merchants still lacked a dependable way to work together. I worked with the investment committee, FinTech leaders, founders, local regulators and counsel, product and engineering teams, and Japanese customers traveling in the region.
 
-The initial thesis favored a $50 million investment in a visible consumer wallet. The operating evidence told a different story: acquisition cost had tripled, retention without subsidies was below 40%, and take rates were approaching 0.5%. I redirected the work toward the less visible infrastructure connecting wallets, banks, merchants, and national QR schemes.
+## The thesis changed before the cheque
 
-That layer offered 1.5%–2.0% take rates, embedded switching costs, and a way to create strategic product value without paying repeatedly to acquire the same consumer.
+The original $50 million thesis favored a visible consumer wallet. The operating evidence was deteriorating: customer-acquisition cost had tripled since 2020, retention without subsidy was below 40%, and take rates were near 0.5%. The region also contained more than 50 wallets, which made consumer attention abundant to compete for and interoperability scarce to own.
 
-## I mapped the system, not just the companies
+I redirected the case toward a B2B aggregator connecting wallets, banks, merchant acquirers, and national payment schemes. Its cross-border economics supported a reported 1.5%–2.0% take rate, and an integration could add regional utility to customers Rakuten already had rather than buy them again.
 
-I began with the payment flow across priority corridors. For each market, I mapped licensing, QR scheme participation, bank and wallet connections, merchant acceptance, settlement, take rate, technical interfaces, and the regulatory path to launch.
+That conclusion matched the public direction of the market. The World Bank's Fast Payments Toolkit treats access, interoperability, QR standards, APIs, governance, fraud, disputes, and settlement as one implementation system. Central-bank projects were also linking national rails: Thailand and Singapore launched PromptPay–PayNow real-time transfers in 2021, while separate merchant-QR linkages connected schemes such as PromptPay, NETS, DuitNow, and VietQR.
 
-The World Bank's Fast Payments Toolkit gave me the primary market-structure frame: access, interoperability, APIs, governance, risk, and implementation all shape whether a fast-payment proposition can scale. PCI DSS 4.0 supplied the security baseline for handling payment-account data and validating control effectiveness.
+I kept those products distinct in the diligence. A person-to-person transfer linkage is not automatically merchant QR acceptance.
 
-This market map changed the investable object. Instead of asking which wallet could buy the most customers, I asked which infrastructure provider could connect fragmented acceptance while becoming difficult to replace.
+## The transaction had to create two independent forms of value
 
-## The minority investment needed operating value
+I supported a 15% minority investment in the aggregator. The financial thesis was sticky B2B volume, higher take rate, and operating leverage. The strategic thesis was a bridge from Rakuten Pay into regional acceptance for Japanese travelers.
 
-I supported a 15% strategic investment, but I did not treat ownership as the outcome. The thesis required a product-integration path that connected an existing payment product to more than five million QR acceptance points.
+I tracked the two cases separately:
 
-The target provided a modern API layer; the existing core used ISO 8583. I linked the investment to an integration bridge, delivery milestones, security gates, and corridor-specific readiness. Financial return and strategic utility were tracked separately so a successful integration could not conceal a weak investment, or vice versa.
-
-I also protected future flexibility through pro-rata rights or warrants. A minority position should create information and strategic access without forcing a premature control decision.
-
-## Vietnam exposed the weak assumption
-
-The original plan assumed a licensing timeline that proved 12 months too optimistic. I documented that miss rather than burying it in a regional average.
-
-I re-scored each corridor independently and moved implementation toward Thailand and Singapore, where the path was clearer. I also staged integration spending behind regulatory evidence and required independent validation of future licensing assumptions.
-
-For customer activation, I used existing travel signals to identify people likely to need cross-border acceptance. That made the integration useful to an established customer relationship instead of recreating the consumer wallet's acquisition problem in every local market.
-
-## The outcome
-
-- The integration made more than five million QR acceptance points available across selected markets.
-- The B2B portfolio reached EBITDA breakeven in 14 months.
-- The infrastructure portfolio held at roughly 1.5 times book value.
-- The licensing miss produced a stronger corridor-level diligence and staged-spending model.
-
-## What I took from the decision
-
-Regional payment growth is not one homogeneous opportunity. The network can be attractive while an individual corridor remains unlaunchable. I now separate company quality, infrastructure value, and corridor readiness, then release capital and integration effort only when each layer has sufficient evidence.
-
-The project also reinforced that a strategic investment should have two independently credible outcomes: a financial return case and a product or distribution advantage. If either side exists only as a slide, it is not yet part of the thesis.
-
-## External foundations
-
-These sources are the primary market, implementation, and security foundation. My resume is linked only for the employment timeline.
-
-| Source | How I applied it |
+| Financial case | Strategic case |
 |---|---|
-| [World Bank — Fast Payments Toolkit (2021)](https://fastpayments.worldbank.org/sites/default/files/2021-11/Fast%20Payment%20Flagship_Final_Nov%201.pdf) | I used its interoperability, access, API, governance, risk, and implementation framework to map the infrastructure opportunity corridor by corridor. |
-| [PCI Security Standards Council — PCI DSS 4.0 release (2022)](https://www.pcisecuritystandards.org/about_us/press_releases/securing-the-future-of-payments-pci-ssc-publishes-pci-data-security-standard-v4-0/) | I used its payment-data protection and control-validation principles as integration gates. |
+| Corridor revenue and take rate | Enabled acceptance for existing users |
+| EBITDA path and cash need | Integration cost and launch timing |
+| Downside valuation | Customer usage and payment success |
+| Minority protections and follow-on rights | Data, scheme, security, and support obligations |
+
+The deal included delivery milestones and future-rights protection. In retrospect, the 15% position captured too little upside after the target's valuation increased; I would insist on pro-rata rights or warrant coverage even if negotiation took longer.
+
+## Every corridor was its own product
+
+I scored markets on license status, scheme participation, merchant coverage, settlement and foreign-exchange economics, fraud and dispute rules, technical interfaces, and existing Rakuten travel demand. A strong company did not make an unlicensed corridor launchable.
+
+I initially accepted a six-month Vietnam launch assumption based too heavily on the target's counsel. State Bank of Vietnam settlement requirements blocked launch for 12 months. That was a six-month schedule miss against the original plan, and I documented it to the committee as a diligence error rather than hiding it in a regional average.
+
+I then separated company-level value from corridor-level permission, required independent local regulatory review, and staged integration spending behind licensing evidence. Thailand and Singapore moved earlier because their scheme and partner paths were clearer; Vietnam remained a separately governed option.
+
+## The technical bridge was part of the deal thesis
+
+The aggregator exposed modern REST APIs. Rakuten's Japanese payment core used ISO 8583 messages and local accounting conventions. I brought Tokyo engineers to Singapore for a three-day working session and aligned the message translation, authorization, idempotency, settlement, reversal, and reconciliation boundaries.
+
+The path was explicit:
+
+`Rakuten Pay request → API authentication → message and currency mapping → ISO 8583 authorization → regional scheme → merchant confirmation → settlement and reconciliation`
+
+Security gates followed PCI DSS 4.0 principles for payment-account data, access, logging, change control, and continuous validation. Commercial launch also required payment-success, reversal, settlement, and support readiness; an API response alone was not an end-to-end payment.
+
+## Distribution followed an existing customer need
+
+Instead of buying local wallet users, the team used owned travel signals. A Japanese customer booking a trip could learn before departure that Rakuten Pay worked on the enabled regional rails. This aligned activation with a real need and avoided reproducing the consumer wallet's subsidy problem.
+
+## Results and boundaries
+
+| Measure | Baseline | Objective | Result | Evidence basis |
+|---|---:|---:|---:|---|
+| Capital thesis | $50M consumer-wallet proposal | Move capital to a more defensible layer | 15% infrastructure position | Approved transaction record |
+| Consumer economics | CAC 3× 2020 level; retention <40%; take rate ~0.5% | Avoid recurring subsidized acquisition | B2B take rate 1.5%–2.0% | Diligence cohort and revenue analysis |
+| Regional acceptance | No integrated cross-border reach from the product | Enable one integration across selected corridors | More than 5M reported QR acceptance points | Aggregator's enabled-endpoint reporting; not claimed as 5M active transacting merchants |
+| Vietnam timing | Six-month assumption | Launch after approval | Blocked for 12 months | Corridor plan versus regulatory milestone record |
+| B2B economics | Pre-scale loss position | Reach breakeven | EBITDA breakeven in 14 months | Portfolio-company management accounts |
+| Investment value | Entry book value 1.0× | Preserve and grow | About 1.5× book value | Portfolio valuation record, not a realized cash return |
+
+## The corporate-development lesson
+
+A regional network and a launchable corridor are different assets. I now underwrite the company, each regulatory route, the integration, the distribution advantage, and the minority rights separately. A strategic investment is ready only when both the financial return case and the product advantage can survive on their own evidence.
+
+### Market and implementation evidence
+
+- [World Bank Fast Payments Toolkit (2021)](https://fastpayments.worldbank.org/sites/default/files/2021-11/Fast%20Payment%20Flagship_Final_Nov%201.pdf) — system-level diligence across interoperability, QR, APIs, governance, risk, and implementation.
+- [Bank of Thailand and MAS, PromptPay–PayNow linkage (2021)](https://www.bot.or.th/en/news-and-media/news/news-20210429.html) — primary evidence for the bilateral real-time transfer rail and its limits.
+- [Bank of Thailand, cross-border payment map](https://www.bot.or.th/en/financial-innovation/digital-finance/digital-payment/cross-border-payment.html) — distinguishes real-time remittance from merchant QR linkages, including Thailand–Vietnam.
+- [Bank Negara Malaysia and MAS, DuitNow–NETS QR linkage (2023)](https://www.bnm.gov.my/-/qrcode-connectivity-my-sg) — primary example of cross-border merchant QR interoperability.
+- [PCI Security Standards Council, PCI DSS 4.0](https://www.pcisecuritystandards.org/standards/pci-dss/) — payment-data control baseline.
+- [Role chronology](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf) — establishes my Rakuten work period from June to December 2023.
