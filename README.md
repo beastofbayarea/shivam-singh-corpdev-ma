@@ -1,5 +1,15 @@
 # Shivam Singh — Corporate Development & Strategic Investments
 
+## Tell me about yourself
+
+**Q: Tell me about yourself / walk me through your background.**
+
+**A:** I am a corporate-development and investment professional with a background spanning commercial diligence, technical underwriting, strategic investment, and post-close value creation. I began at McKinsey, where I evaluated markets and FinTech opportunities by connecting demand, competitive structure, regulation, unit economics, and operating requirements. That gave me a disciplined foundation for asking not only whether a market is attractive, but whether a specific company has the right to win.
+
+At D. E. Shaw, I worked closer to capital and technical performance, including diligence that translated deterministic low-latency execution into the risk and economic structure of a $500 million sovereign mandate. During my MBA role at Rakuten, I evaluated Southeast Asian financial-services opportunities and redirected a proposed consumer-wallet investment toward the scarcer payments-infrastructure layer, with integration and corridor risk built into the transaction thesis. At AWS, my work has focused on generative-AI strategy and acquisition decisions, including an $85 million build-versus-buy case that joined independent model evaluation, gross-margin improvement, pricing, compute economics, and a funded integration plan.
+
+The through-line is that I underwrite the asset and the work required to realize it. I define the scarce capability, compare it with the build or partnership alternative, write the reasons to walk away before diligence, and turn integration into part of the investment case. I am most useful where strategic enthusiasm needs to become a precise capital decision with downside gates and accountable value creation.
+
 I underwrite transactions by asking what scarce asset the capital actually buys, which failure would destroy the thesis, and what evidence must exist before the next dollar or integration decision is released.
 
 This portfolio spans acquisition, minority investment, market entry, and institutional mandate work. The sectors differ; the discipline does not. Strategic logic, technical reality, unit economics, deal structure, and post-close ownership must resolve into one decision.
