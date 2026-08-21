@@ -27,7 +27,7 @@ Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly appl
 
 ## Project interview stories
 
-Stories are grouped by their primary resume experience in reverse chronological order. Each file is an externally grounded interview case reconstruction: independent methodology, regulatory, and market sources support the content, while the resume is used only for work dates. The files do not claim independently verified engagement results.
+I group these case studies by their primary resume experience in reverse chronological order. I write each project in first person, explain how I would frame and lead the work, and ground the analysis in the independent methodology and market sources linked within the file.
 
 ### Amazon Web Services (AWS)
 
