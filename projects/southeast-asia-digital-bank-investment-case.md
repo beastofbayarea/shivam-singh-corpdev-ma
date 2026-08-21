@@ -4,6 +4,8 @@ I built the investment and launch case for a Southeast Asian digital bank. I had
 
 The project took place during my McKinsey experience from July 2014 to June 2016. The market evidence was real but insufficient on its own: the World Bank's 2014 Global Findex counted about 490 million unbanked adults in East Asia and the Pacific, while regional account ownership had risen from 55% to 69%. That described unmet access; it did not prove this bank could acquire, verify, underwrite, and retain a specific customer safely.
 
+I turned that population-scale need into a capital-release system. I owned the link between telecom distribution, more than 400 candidate risk signals, identity and consent, graduated credit exposure, unit economics, and the committee gates for a launch intended to cross 100,000 active customers without allowing approval growth to outrun loss evidence.
+
 ## I made the thesis clear enough to fail
 
 The target segment was mobile-first customers whose traditional credit checks often returned no usable history. Roughly 70% of the intended market had little or no formal credit record, and the initial approval rate was below 10%.
