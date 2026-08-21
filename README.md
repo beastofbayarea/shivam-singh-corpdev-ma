@@ -22,10 +22,12 @@ Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly appl
 
 ## Project interview stories
 
-Each story adapts a portfolio project to this role narrative, with resume-ready impact, interview framing, decisions, metrics, and a link to the source page.
+Each story adapts a portfolio project to this role narrative, with resume-ready impact, interview framing, decisions, metrics, and a link to the source page. The primary resume experience identifies the work-history anchor whose stated scope and evidence best support the story.
 
 - [Agentic AI acquisition: build vs. buy](./projects/agentic-ai-acquisition-build-vs-buy.md) - strategic rationale, diligence, valuation, and integration logic
+  - **Primary resume experience:** Amazon Web Services (AWS) - Director, Corporate Development and Strategic Investments - Generative AI (July 2024 - Present)
 - [Southeast Asia payments: strategic investment](./projects/southeast-asia-payments-strategic-investment.md) - market thesis, transaction diligence, and synergy assessment
+  - **Primary resume experience:** Rakuten Group, Inc. - Corporate Development and Strategic Investments - MBA Intern (June 2023 - December 2023)
 
 ## Profile
 
