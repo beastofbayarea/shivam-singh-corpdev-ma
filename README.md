@@ -2,6 +2,11 @@
 
 Role-targeted resume for corporate development, M&A, strategic investments, transaction diligence, and post-deal value creation.
 
+## Profile
+
+- Email: [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu)
+- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
+
 ## Resume formats
 
 - [View the PDF](./shivam-singh-corpdev-ma.pdf)
@@ -22,7 +27,7 @@ Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly appl
 
 ## Project interview stories
 
-Stories are grouped by their primary resume experience in reverse chronological order. Each project includes resume-ready impact, interview framing, decisions, metrics, and a link to the source page.
+Stories are grouped by their primary resume experience in reverse chronological order. Each file is an externally grounded interview case reconstruction: independent methodology, regulatory, and market sources support the content, while the resume is used only for work dates. The files do not claim independently verified engagement results.
 
 ### Amazon Web Services (AWS)
 
@@ -36,7 +41,15 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 - [Southeast Asia payments: strategic investment](./projects/southeast-asia-payments-strategic-investment.md) - market thesis, transaction diligence, and synergy assessment
 
-## Profile
+### The D. E. Shaw Group
 
-- Email: [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu)
-- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
+**Vice President, Investment Strategy** | July 2016 - December 2019
+
+- [Sovereign mandate: technical diligence and performance economics](./projects/sovereign-mandate-technical-diligence-performance-economics.md) - technical underwriting, staged risk proof, performance-linked terms, and investment-committee evidence
+
+### McKinsey & Company
+
+**Associate, Commercial Due Diligence & FinTech Strategy** | July 2014 - June 2016
+
+- [Southeast Asia digital bank: investment case and staged market entry](./projects/southeast-asia-digital-bank-investment-case.md) - market sizing, acquisition economics, credit-risk scenarios, regulatory sequencing, and investment recommendation
+
