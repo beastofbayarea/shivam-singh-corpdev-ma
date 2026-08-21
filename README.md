@@ -20,6 +20,13 @@ Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly appl
 
 - [Agentic AI investment thesis and corporate synergy map](./work-samples/plug-and-play-agentic-ai-investment-thesis-and-corporate-synergy-map-2026.pdf) - venture thesis development, corporate matching, and strategic value creation
 
+## Project interview stories
+
+Each story adapts a portfolio project to this role narrative, with resume-ready impact, interview framing, decisions, metrics, and a link to the source page.
+
+- [Agentic AI acquisition: build vs. buy](./projects/agentic-ai-acquisition-build-vs-buy.md) - strategic rationale, diligence, valuation, and integration logic
+- [Southeast Asia payments: strategic investment](./projects/southeast-asia-payments-strategic-investment.md) - market thesis, transaction diligence, and synergy assessment
+
 ## Profile
 
 - Email: [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu)
