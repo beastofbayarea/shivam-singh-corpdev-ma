@@ -36,6 +36,12 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 - [Southeast Asia payments: strategic investment](./projects/southeast-asia-payments-strategic-investment.md) - market thesis, transaction diligence, and synergy assessment
 
+### The D. E. Shaw Group
+
+**Vice President, Investment Strategy** | July 2016 - December 2019
+
+- [Sovereign mandate: technical diligence and performance economics](./projects/sovereign-mandate-technical-diligence-performance-economics.md) - technical underwriting, staged risk proof, performance-linked terms, and investment-committee evidence
+
 ## Profile
 
 - Email: [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu)
