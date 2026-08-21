@@ -1,55 +1,53 @@
 # Shivam Singh - Corporate Development and Strategic Investments
 
-Role-targeted resume for corporate development, M&A, strategic investments, transaction diligence, and post-deal value creation.
+I evaluate transactions by connecting strategic fit, market structure, financial returns, technical reality, and the practical path to value creation. This portfolio shows how I approach acquisitions, strategic investments, diligence, deal design, and post-deal execution.
 
 ## Profile
 
-- Email: [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu)
-- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
+- I welcome conversations at [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu).
+- I share my broader professional background on [LinkedIn](https://www.linkedin.com/in/beastofbayarea).
 
-## Resume formats
+## What I focus on
 
-- [View the PDF](./shivam-singh-corpdev-ma.pdf)
-- [Download the ATS Autofill DOCX](./shivam-singh-corpdev-ma-ats-autofill.docx)
+- I screen acquisition and investment opportunities against explicit strategic priorities.
+- I integrate commercial, financial, technical, regulatory, and operational diligence.
+- I translate uncertainty into valuation ranges, downside cases, milestones, and decision conditions.
+- I plan integration and value creation early enough to influence transaction structure.
 
-Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly application workflows.
+## Resume
 
-## Focus areas
+- I use the [PDF resume](./shivam-singh-corpdev-ma.pdf) as the primary version for reading and sharing.
+- I provide an [editable, ATS-friendly DOCX](./shivam-singh-corpdev-ma-ats-autofill.docx) for application workflows.
 
-- M&A and strategic investment screening
-- Commercial, financial, and technical diligence
-- Capital allocation and financial modeling
-- Integration planning and value creation
+## Selected work
 
-## Selected work sample
+- I connect an investment thesis to corporate capabilities, target archetypes, and strategic value in my [Agentic AI investment thesis and corporate synergy map](./work-samples/plug-and-play-agentic-ai-investment-thesis-and-corporate-synergy-map-2026.pdf).
 
-- [Agentic AI investment thesis and corporate synergy map](./work-samples/plug-and-play-agentic-ai-investment-thesis-and-corporate-synergy-map-2026.pdf) - venture thesis development, corporate matching, and strategic value creation
+## Project portfolio
 
-## Project interview stories
-
-I group these case studies by their primary resume experience in reverse chronological order. I write each project in first person, explain how I would frame and lead the work, and ground the analysis in the independent methodology and market sources linked within the file.
+I organize these projects by career experience, with the most recent first. In each case study, I explain how I would form the thesis, test the evidence, value the opportunity, structure the decision, and plan for value creation. I ground the analysis in the independent methodology and market sources linked inside each file.
 
 ### Amazon Web Services (AWS)
 
 **Director, Corporate Development and Strategic Investments - Generative AI** | July 2024 - Present
 
-- [Agentic AI acquisition: build vs. buy](./projects/agentic-ai-acquisition-build-vs-buy.md) - strategic rationale, diligence, valuation, and integration logic
+- I use [Agentic AI acquisition: build vs. buy](./projects/agentic-ai-acquisition-build-vs-buy.md) to show how I would compare internal development with acquisition, test strategic and technical fit, value uncertainty, and build an integration thesis before signing.
 
 ### Rakuten Group, Inc.
 
 **Corporate Development and Strategic Investments - MBA Intern** | June 2023 - December 2023
 
-- [Southeast Asia payments: strategic investment](./projects/southeast-asia-payments-strategic-investment.md) - market thesis, transaction diligence, and synergy assessment
+- I use [Southeast Asia payments: strategic investment](./projects/southeast-asia-payments-strategic-investment.md) to show how I would combine market structure, unit economics, regulatory exposure, diligence, and commercial synergies into a staged investment recommendation.
 
 ### The D. E. Shaw Group
 
 **Vice President, Investment Strategy** | July 2016 - December 2019
 
-- [Sovereign mandate: technical diligence and performance economics](./projects/sovereign-mandate-technical-diligence-performance-economics.md) - technical underwriting, staged risk proof, performance-linked terms, and investment-committee evidence
+- I use [Sovereign mandate: technical diligence and performance economics](./projects/sovereign-mandate-technical-diligence-performance-economics.md) to show how I would underwrite technical performance, stage proof of risk, align terms to evidence, and support an investment committee decision.
 
 ### McKinsey & Company
 
 **Associate, Commercial Due Diligence & FinTech Strategy** | July 2014 - June 2016
 
-- [Southeast Asia digital bank: investment case and staged market entry](./projects/southeast-asia-digital-bank-investment-case.md) - market sizing, acquisition economics, credit-risk scenarios, regulatory sequencing, and investment recommendation
+- I use [Southeast Asia digital bank: investment case and staged market entry](./projects/southeast-asia-digital-bank-investment-case.md) to show how I would test market demand, acquisition economics, credit risk, regulatory sequencing, and downside protection before recommending entry.
 
