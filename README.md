@@ -4,7 +4,7 @@
 
 Hi, I’m Shivam. I enjoy transaction questions that cannot be answered by a model alone: Is this capability genuinely strategic? What would we have to believe about the market? Which risks can diligence resolve, which belong in the price or terms, and who will create the value after close?
 
-You can reach me at [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu), and my broader experience is available on [LinkedIn](https://www.linkedin.com/in/beastofbayarea).
+You can reach me at [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/beastofbayarea).
 
 ## My investment lens
 
@@ -12,15 +12,9 @@ I try to keep strategic logic, market evidence, financial returns, technical rea
 
 My preferred decision is specific: what should we do, why now, what could make us wrong, what conditions should protect us, and how will the new capability create value inside the business?
 
-## Resume and selected work
-
-My [PDF resume](./shivam-singh-corpdev-ma.pdf) is the primary version. I also provide an [editable, ATS-friendly DOCX](./shivam-singh-corpdev-ma-ats-autofill.docx).
-
-For a standalone view of how I connect a venture thesis to corporate capabilities and target archetypes, see my [Agentic AI investment thesis and corporate synergy map](./work-samples/plug-and-play-agentic-ai-investment-thesis-and-corporate-synergy-map-2026.pdf).
-
 ## Four decisions I work through
 
-These cases move from the newest experience to the oldest. I write them as decision narratives rather than deal summaries, using independent market and methodology sources as the main evidence base.
+These projects move from the newest experience to the oldest. I write them as decision narratives rather than deal summaries, using independent market and methodology sources as the main evidence base.
 
 ### Amazon Web Services (AWS)
 
@@ -28,7 +22,7 @@ These cases move from the newest experience to the oldest. I write them as decis
 
 #### [Agentic AI acquisition: build vs. buy](./projects/agentic-ai-acquisition-build-vs-buy.md)
 
-“Can we build it?” is only one part of the decision. I compare time to capability, strategic control, technical fit, execution risk, valuation, and integration so the recommendation reflects what ownership would actually change.
+I reframed an $85M agentic-AI acquisition from a margin failure into a conditional value-creation thesis. Independent technical diligence, a cost and pricing bridge, explicit walk-away criteria, and a four-month integration plan connected strategic fit to realizable post-close economics.
 
 ### Rakuten Group, Inc.
 
@@ -36,7 +30,7 @@ These cases move from the newest experience to the oldest. I write them as decis
 
 #### [Southeast Asia payments: strategic investment](./projects/southeast-asia-payments-strategic-investment.md)
 
-This case brings together a fragmented market, local regulation, payment economics, and a strategic investor’s ability to help. I show how I would move from thesis to diligence, test the synergies, and structure a staged commitment.
+I redirected a $50M consumer-wallet thesis toward the scarce infrastructure connecting regional wallets, banks, and QR schemes. A 15% minority investment combined sticky B2B economics with strategic payment integration and a corridor recovery plan after the original regulatory timeline proved too optimistic.
 
 ### The D. E. Shaw Group
 
@@ -44,7 +38,7 @@ This case brings together a fragmented market, local regulation, payment economi
 
 #### [Sovereign mandate: technical diligence and performance economics](./projects/sovereign-mandate-technical-diligence-performance-economics.md)
 
-Technical performance is investable only when it can be measured, repeated, and governed. I translate that idea into proof stages, performance economics, risk-adjusted terms, and a clear set of investment-committee conditions.
+I connected technical diligence on a deterministic low-latency trading platform to a sovereign investor's mandate economics. Stress replay, shadow mode, firm-capital proof, hardware risk gates, and hurdle-based pricing converted a technical moat into an underwritten, governable, and commercially aligned $500M decision.
 
 ### McKinsey & Company
 
@@ -52,5 +46,4 @@ Technical performance is investable only when it can be measured, repeated, and 
 
 #### [Southeast Asia digital bank: investment case and staged market entry](./projects/southeast-asia-digital-bank-investment-case.md)
 
-The growth story is appealing; the harder work is testing customer acquisition, credit behavior, regulatory sequencing, and downside. I build the recommendation around those uncertainties and explain why market entry should be staged rather than assumed.
-
+I built the investment case for a Southeast Asian digital bank by connecting market size, MVP scope, customer-acquisition economics, credit risk, and regulatory sequencing. The platform scaled to 100,000 active users in 90 days while holding CAC below $10 and non-performing loans at 2.4%.
