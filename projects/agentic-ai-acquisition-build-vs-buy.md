@@ -1,57 +1,55 @@
-# Agentic AI Acquisition — Build-vs-Buy & Integration Strategy
+# Reframing an $85 Million Agentic AI Acquisition
 
-## What I worked on
+I led this build-versus-buy and integration work during my [AWS experience beginning in July 2024](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf).
 
-I completed this work during my [AWS experience from July 2024 to present](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf).
+The acquisition target had strong growth, proprietary workflow data, and years of expert corrections. It also had a serious economic problem: flat-rate pricing and third-party infrastructure made its heaviest users unprofitable. Engineering and Finance initially saw that margin profile as a reason to stop the deal.
 
-I reframed an $85M agentic-AI acquisition from a margin failure into a conditional value-creation thesis. Independent technical diligence, a cost and pricing bridge, explicit walk-away criteria, and a four-month integration plan connected strategic fit to realizable post-close economics.
+I saw a different diligence question. Was the asset structurally weak, or was a valuable asset trapped inside a fixable cost and commercial model?
 
-## At a glance
+## I separated the moat from the operating model
 
-- I led build-versus-buy and cross-functional diligence for an $85M agentic-AI opportunity, establishing a 5% hallucination walk-away threshold and independently validating the target at 3.2%.
-- I built an integration value-creation plan that modeled a 70% reduction in inference cost and a gross-margin increase from 55% to 81%.
-- I changed the recommendation from stop to acquire with conditions, accelerating time to market from 18 months to four and increasing autonomous resolution from 14% to 72%.
+I compared an internal build and an acquisition across time to market, proprietary data, accumulated expert feedback, technical quality, execution risk, integration cost, and defensibility. Building offered control, but it would take an estimated 18 months and would begin without the target's correction data. Acquiring could compress that timeline, provided the underlying system passed independent tests and the post-close economics were executable.
 
-## The situation
+I therefore made the recommendation conditional. The target had to clear three gates:
 
-The target had strong growth, proprietary workflow data, and years of expert corrections, but its flat-rate pricing and third-party infrastructure made power users uneconomic. Engineering and Finance initially wanted to terminate the deal.
+1. The system's unsupported-output rate had to remain below a pre-agreed 5% walk-away threshold.
+2. The infrastructure and pricing changes had to produce a credible gross-margin bridge.
+3. The integration plan had to preserve product velocity while introducing stronger platform, safety, and governance controls.
 
-## What I needed to accomplish
+## Technical diligence had an explicit stop condition
 
-I needed to determine whether weak current economics reflected a broken asset or a fixable operating model, then define the conditions required for acquisition approval.
+I commissioned an independent red-team of the retrieval and orchestration stack rather than accept a curated demonstration. NIST's Generative AI Profile shaped the evaluation frame: confabulation, information integrity, privacy, cybersecurity, human oversight, and measurement all had to be considered together.
 
-## What I did
+The target measured 3.2% against the 5% hallucination threshold. Passing did not mean the system was risk-free. It meant the observed behavior was within the boundary we had defined before seeing the result, and the residual risk could be governed through product and operational controls.
 
-- I compared internal build and acquisition across time, data moat, expert feedback, execution risk, economics, and defensibility.
-- I commissioned an independent red-team of the retrieval and orchestration stack against a pre-agreed walk-away threshold.
-- I modeled infrastructure migration, quantization, concurrency, support automation, and hybrid usage pricing.
-- I sequenced platform, model, safety, and commercial integration while preserving product velocity.
+## I built value creation into the deal thesis
 
-## The results
+The margin bridge combined infrastructure migration, model quantization, concurrency improvements, support automation, and hybrid usage pricing. That model projected a 70% reduction in inference cost and an increase in gross margin from 55% to 81%.
 
-- The target passed technical diligence at 3.2% hallucination versus a 5% threshold.
-- Inference cost fell 70%, and gross margin reached 81%.
-- General availability accelerated from 18 months to four.
-- Autonomous resolution reached 72%, and net dollar retention reached 158%.
+The integration plan ran across four months in four connected lanes:
 
-## Decisions and trade-offs
+- migrate compute without redesigning the customer experience;
+- introduce model and safety controls with observable release gates;
+- preserve the workflow data and expert-feedback loop that made the asset defensible; and
+- replace flat pricing with a structure that aligned revenue to costly usage.
 
-- I separated asset quality from the weakness of its current cost structure.
-- I approved the acquisition only with an executable integration and margin bridge.
-- I preserved the product architecture while hot-swapping infrastructure and controls.
+NIST's Cybersecurity Framework 2.0 informed the governance and supply-chain work, including named ownership, dependency risk, protection, detection, response, and recovery.
 
-## How I led
+## The recommendation changed—but remained conditional
 
-I aligned Finance, AI Engineering, Hardware, Research, and executive leadership around visible assumptions, explicit deal gates, and post-close owners.
+I changed the recommendation from “stop” to “acquire with conditions.” The resulting plan accelerated general availability from an estimated 18 months to four. Inference cost fell 70%, gross margin reached 81%, autonomous resolution increased from 14% to 72%, and net dollar retention reached 158%.
 
-## Why I chose this approach
+## What I believe made the decision defensible
 
-I used [NIST - Generative AI Profile (2024)](https://doi.org/10.6028/NIST.AI.600-1) to ground generative AI risk and evaluation foundation. I used [NIST - Cybersecurity Framework 2.0 (2024)](https://doi.org/10.6028/NIST.CSWP.29) to ground governance, cybersecurity, and supply-chain risk framework.
+I did not ask the investment team to overlook poor current margins. I showed which part of the value came from the asset, which part depended on post-close execution, what evidence would invalidate the thesis, and who would own each integration outcome.
 
-## Sources and external context
+That is how I approach technology acquisitions: price the asset as it exists, underwrite the improvements separately, and refuse to count a synergy until it has an owner, sequence, cost, and measurable release condition.
 
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
+## External foundations
 
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [NIST - Generative AI Profile (2024)](https://doi.org/10.6028/NIST.AI.600-1) | I used it to ground generative AI risk and evaluation foundation. | — |
+These sources supplied the primary diligence and governance methodology. My resume is linked only to establish employment chronology.
+
+| Source | How I applied it |
+|---|---|
+| [NIST — Generative AI Profile (2024)](https://doi.org/10.6028/NIST.AI.600-1) | I used its risk categories and measurement guidance to structure independent red-team diligence and residual-risk decisions. |
+| [NIST — Cybersecurity Framework 2.0 (2024)](https://doi.org/10.6028/NIST.CSWP.29) | I used its govern-identify-protect-detect-respond-recover functions to frame integration ownership and supply-chain risk. |

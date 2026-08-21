@@ -1,59 +1,55 @@
-# Sovereign Mandate - Technical Diligence and Performance Economics
+# Underwriting a Low-Latency Platform for a $500 Million Sovereign Mandate
 
-## What I worked on
+I did this work during my [D. E. Shaw experience from July 2016 to December 2019](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf).
 
-I completed this work during my [D. E. Shaw experience from July 2016 to December 2019](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf).
+A sovereign investor wanted protection against concentrated macro risk but was wary of opaque managers and fixed fees. At the same time, the existing CPU-based execution architecture showed tail-latency spikes of eight milliseconds precisely when liquidity deteriorated.
 
-I connected technical diligence on a deterministic low-latency trading platform to a sovereign investor's mandate economics. Stress replay, shadow mode, firm-capital proof, hardware risk gates, and hurdle-based pricing converted a technical moat into an underwritten, governable, and commercially aligned $500M decision.
+My task was to connect two forms of diligence that are often discussed separately: whether the proposed GPU/RDMA platform behaved deterministically under stress, and whether that technical advantage justified a $500 million mandate with aligned commercial terms.
 
-## At a glance
+## I defined the moat as stressed behavior
 
-- I sponsored technical diligence on a GPU/RDMA execution redesign that held 35 microsecond median and 40 microsecond p99 latency under a severe market shock.
-- I validated the platform through historical replay, six-week shadow mode, and $50M of firm capital before exposing client assets.
-- I helped secure a $500M mandate with 1-and-30 pricing above a hard hurdle; the strategy produced an 18% net first-year return and $25M in performance fees.
+Average benchmark speed was not a useful decision criterion. A hedging system creates value when markets are difficult, so I underwrote tail latency, completion, slippage, recovery, and fallback during severe conditions.
 
-## The situation
+The architecture used GPUDirect RDMA and persistent kernels to reduce unnecessary movement and scheduling variation. NVIDIA's GPUDirect RDMA documentation provided the primary technical model for direct device-to-device data exchange. I treated the FPGA path as an independent risk gate and required heartbeat controls and a CPU fallback so the performance gain did not become a single point of failure.
 
-A sovereign investor needed protection against concentrated macro risk but distrusted fixed fees and opaque managers. The existing CPU architecture showed eight-millisecond tail spikes precisely when liquidity deteriorated.
+The proposed design held 35-microsecond median and 40-microsecond p99 latency under the stress scenario. More important, the narrow difference between the median and tail supported the determinism thesis.
 
-## What I needed to accomplish
+## Proof increased in four deliberate steps
 
-I needed to underwrite the platform, downside controls, implementation risk, and commercial terms well enough to support an investment-committee decision and aligned mandate structure.
+I sequenced validation so exposure grew only after the previous layer produced acceptable evidence:
 
-## What I did
+1. Historical crash replay tested the platform against known extreme conditions.
+2. Six weeks of shadow operation compared decisions and behavior without controlling client capital.
+3. We put $50 million of firm capital behind the system.
+4. Live-event evidence informed the final client-deployment decision.
 
-- I selected a deterministic GPU design based on stressed tail latency rather than average benchmark speed.
-- I assessed GPUDirect RDMA, persistent kernels, an independent FPGA risk gate, heartbeat controls, and CPU fallback as diligence requirements.
-- I staged proof through crash replay, shadow comparison, $50M of firm capital, and live-event evidence before client deployment.
-- I structured a 1% base fee and 30% incentive fee only above the risk-free rate plus a 4% hurdle.
-- I translated technical evidence, residual risks, and economic protections into investment-committee decision materials.
+Using firm capital was a governance choice as much as a technical test. We accepted the implementation risk before asking the investor to do so.
 
-## The results
+OECD guidance on responsible business conduct for institutional investors influenced the diligence structure: identify material impacts, investigate them, document mitigation, and maintain oversight rather than outsource judgment to a manager's assertion.
 
-- The engine completed 94% of intended hedges with less than 0.5 basis points of slippage during the cited event.
-- The portfolio experienced no drawdown during the event.
-- The investor approved a $500M allocation.
-- First-year net return reached 18%, generating $25M in performance fees.
+## I made the fee contract part of the risk design
 
-## Decisions and trade-offs
+The commercial structure used a 1% base fee and a 30% incentive fee only above the risk-free rate plus a 4% hurdle. That made substantial performance compensation contingent on clearing an explicit return boundary.
 
-- I underwrote tail-latency determinism rather than rely on average-speed benchmarks.
-- I risked firm capital before asking the investor to trust the new platform.
-- I made the fee contract part of the downside-alignment and investment thesis.
+I translated the technical evidence into investment-committee language: the source of the advantage, the scenarios in which it could disappear, remaining hardware and operational risks, the proof already completed, the fallback path, and the economics after fees. IFRS 13's market-participant and observable-input principles helped discipline how I described the value of the technical capability without turning engineering promise into unsupported valuation.
 
-## How I led
+## What the evidence supported
 
-I translated engineering evidence for investment committees, quants, infrastructure leaders, boards, and sovereign allocators, connecting technical diligence directly to risk protections, valuation of the moat, and commercial terms.
+- During the cited event, the engine completed 94% of intended hedges with less than 0.5 basis points of slippage.
+- The portfolio experienced no drawdown during that event.
+- The investor approved a $500 million allocation.
+- First-year net return reached 18%, producing $25 million in performance fees.
 
-## Why I chose this approach
+## The principle I use now
 
-I used [OECD - Responsible business conduct for institutional investors (2017)](https://doi.org/10.1787/8b9e240a-en) to ground institutional-investor due-diligence framework. I used [IFRS Foundation - IFRS 13 Fair Value Measurement](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-13-fair-value-measurement/) to ground valuation framework for market-participant assumptions and observable inputs.
+A technical moat is not a benchmark result. It is an advantage that survives realistic stress, has controlled failure modes, and changes the investor's economic outcome. I underwrite those elements together, then express the remaining uncertainty in staging, fallback, and commercial terms.
 
-## Sources and external context
+## External foundations
 
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
+The sources below supplied the primary technical, diligence, and valuation frameworks. The resume link establishes employment chronology only.
 
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [OECD - Responsible business conduct for institutional investors (2017)](https://doi.org/10.1787/8b9e240a-en) | I used it to ground institutional-investor due-diligence framework. | — |
-| [IFRS Foundation - IFRS 13 Fair Value Measurement](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-13-fair-value-measurement/) | I used it to ground valuation framework for market-participant assumptions and observable inputs. | — |
+| Source | How I applied it |
+|---|---|
+| [NVIDIA — GPUDirect RDMA documentation](https://docs.nvidia.com/cuda/gpudirect-rdma/) | I used its direct-memory-access model to frame the platform's technical design and the points requiring validation. |
+| [OECD — Responsible business conduct for institutional investors (2017)](https://doi.org/10.1787/8b9e240a-en) | I used its due-diligence cycle to structure investigation, mitigation, documentation, and continuing oversight. |
+| [IFRS Foundation — IFRS 13 Fair Value Measurement](https://www.ifrs.org/issued-standards/list-of-standards/ifrs-13-fair-value-measurement/) | I used its market-participant and observable-input principles to keep the economic translation disciplined. |
