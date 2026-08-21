@@ -2,6 +2,11 @@
 
 Role-targeted resume for corporate development, M&A, strategic investments, transaction diligence, and post-deal value creation.
 
+## Profile
+
+- Email: [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu)
+- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
+
 ## Resume formats
 
 - [View the PDF](./shivam-singh-corpdev-ma.pdf)
@@ -48,7 +53,3 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 - [Southeast Asia digital bank: investment case and staged market entry](./projects/southeast-asia-digital-bank-investment-case.md) - market sizing, acquisition economics, credit-risk scenarios, regulatory sequencing, and investment recommendation
 
-## Profile
-
-- Email: [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu)
-- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
