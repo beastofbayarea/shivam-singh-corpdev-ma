@@ -2,7 +2,7 @@
 
 > **Experience alignment:** McKinsey & Company, Associate, Commercial Due Diligence & FinTech Strategy, July 2014-June 2016.
 
-> **Grounding standard:** This is a conservative interview reconstruction. Candidate-specific role, action, and outcome claims come from the [public role-targeted resume](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf). The remaining sources establish market and regulatory conditions available during the experience window; they do not independently verify the candidate's participation.
+> **Evidence hierarchy:** Contemporaneous external market and regulatory sources are the primary grounding for the opportunity framing, product scope, controlled-entry model, and investment logic. The [public role-targeted resume](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf) is secondary evidence used only for the work-experience dates and candidate-specific outcome claims. The external sources do not independently verify the candidate's participation.
 
 ## Portfolio lens
 
@@ -61,9 +61,9 @@ corporate development · commercial due diligence · digital banking · market s
 
 | Evidence used | External source | Publication timing |
 |---|---|---|
-| Candidate role, July 2014-June 2016 timeline, investment-case scope, and 100,000-user, CAC, and NPL outcomes | [Public Corporate Development resume](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf) | Current public artifact describing July 2014-June 2016 experience |
 | East Asia and Pacific account ownership, remaining unbanked population, and digital-payment opportunity | [World Bank - Global Findex 2014 launch](https://www.worldbank.org/en/news/feature/2015/04/20/global-findex-2014-unveils-worlds-most-comprehensive-set-of-data-on-financial-inclusion) | April 2015 |
 | Transaction accounts, retail payments, low-cost access, and adoption as foundations for inclusion | [BIS and World Bank - Payment aspects of financial inclusion](https://www.bis.org/cpmi/publ/d144.htm) | April 2016 |
 | Controlled FinTech experimentation, safeguards, evaluation criteria, and bounded regulatory relief | [Monetary Authority of Singapore - Regulatory sandbox consultation](https://www.nas.gov.sg/archivesonline/data/pdfdoc/20160606006/Media%20release%20-%20Public%20Consultation%20on%20Sandbox%20Guidelines_FINAL.pdf) | June 6, 2016 |
+| Secondary alignment only: candidate role, July 2014-June 2016 timeline, investment-case scope, and 100,000-user, CAC, and NPL outcomes | [Public Corporate Development resume](https://github.com/beastofbayarea/shivam-singh-corpdev-ma/blob/main/shivam-singh-corpdev-ma.pdf) | Current public artifact describing July 2014-June 2016 experience |
 
 All market and regulatory sources fall within the July 2014-June 2016 work-experience window.
