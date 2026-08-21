@@ -36,6 +36,12 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 - [Southeast Asia payments: strategic investment](./projects/southeast-asia-payments-strategic-investment.md) - market thesis, transaction diligence, and synergy assessment
 
+### McKinsey & Company
+
+**Associate, Commercial Due Diligence & FinTech Strategy** | July 2014 - June 2016
+
+- [Southeast Asia digital bank: investment case and staged market entry](./projects/southeast-asia-digital-bank-investment-case.md) - market sizing, acquisition economics, credit-risk scenarios, regulatory sequencing, and investment recommendation
+
 ## Profile
 
 - Email: [shiv-corpdev@umich.edu](mailto:shiv-corpdev@umich.edu)
